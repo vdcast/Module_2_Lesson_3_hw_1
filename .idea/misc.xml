@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_blue.xml" value="0.44722222222222224" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_cyan.xml" value="0.44722222222222224" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_gray.xml" value="0.44722222222222224" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_green.xml" value="0.44722222222222224" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_magneto.xml" value="0.44722222222222224" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_red.xml" value="0.44722222222222224" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/drawable/bt_bg_white.xml" value="0.44722222222222224" />
         <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_3_hw_1/app/src/main/res/layout/activity_main.xml" value="0.43425925925925923" />
       </map>
     </option>
