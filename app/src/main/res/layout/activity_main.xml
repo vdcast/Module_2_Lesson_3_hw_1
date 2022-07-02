@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="Click on any button to switch screen color"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -32,11 +33,13 @@
         android:id="@+id/btColor1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:text="WHITE"
+        android:layout_marginEnd="32dp"
         android:background="@drawable/bt_bg_white"
-        app:layout_constraintEnd_toEndOf="@+id/tvHello"
-        app:layout_constraintStart_toStartOf="@+id/tvHello"
+        android:text="WHITE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHello" />
 
     <Button
@@ -88,8 +91,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="MAGNETO"
-        android:background="@drawable/bt_bg_magneto"
+        android:background="@drawable/bt_bg_magenta"
+        android:text="MAGENTA"
         app:layout_constraintEnd_toEndOf="@+id/btColor6"
         app:layout_constraintStart_toStartOf="@+id/btColor6"
         app:layout_constraintTop_toBottomOf="@+id/btColor6" />
