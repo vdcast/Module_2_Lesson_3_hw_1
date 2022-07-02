@@ -18,71 +18,80 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        android:background="@drawable/bt_bg_red"
+        android:text="RED"
+        app:layout_constraintEnd_toEndOf="@+id/btColor1"
+        app:layout_constraintStart_toStartOf="@+id/btColor1"
+        app:layout_constraintTop_toBottomOf="@+id/btColor1" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Button"
+        android:layout_marginTop="32dp"
+        android:text="WHITE"
+        android:background="@drawable/bt_bg_white"
         app:layout_constraintEnd_toEndOf="@+id/tvHello"
         app:layout_constraintStart_toStartOf="@+id/tvHello"
         app:layout_constraintTop_toBottomOf="@+id/tvHello" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor3"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:layout_marginTop="8dp"
+        android:text="BLUE"
+        android:background="@drawable/bt_bg_blue"
+        app:layout_constraintEnd_toEndOf="@+id/btColor2"
+        app:layout_constraintStart_toStartOf="@+id/btColor2"
+        app:layout_constraintTop_toBottomOf="@+id/btColor2" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor4"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bt_bg_green"
+        android:text="GREEN"
+        app:layout_constraintEnd_toEndOf="@+id/btColor3"
+        app:layout_constraintStart_toStartOf="@+id/btColor3"
+        app:layout_constraintTop_toBottomOf="@+id/btColor3" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor5"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="361dp" />
+        android:layout_marginTop="8dp"
+        android:text="CYAN"
+        android:background="@drawable/bt_bg_cyan"
+        app:layout_constraintEnd_toEndOf="@+id/btColor4"
+        app:layout_constraintStart_toStartOf="@+id/btColor4"
+        app:layout_constraintTop_toBottomOf="@+id/btColor4" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor6"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:layout_marginTop="8dp"
+        android:text="GRAY"
+        android:background="@drawable/bt_bg_gray"
+        app:layout_constraintEnd_toEndOf="@+id/btColor5"
+        app:layout_constraintStart_toStartOf="@+id/btColor5"
+        app:layout_constraintTop_toBottomOf="@+id/btColor5" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
+        android:id="@+id/btColor7"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="526dp" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="592dp" />
+        android:layout_marginTop="8dp"
+        android:text="MAGNETO"
+        android:background="@drawable/bt_bg_magneto"
+        app:layout_constraintEnd_toEndOf="@+id/btColor6"
+        app:layout_constraintStart_toStartOf="@+id/btColor6"
+        app:layout_constraintTop_toBottomOf="@+id/btColor6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
