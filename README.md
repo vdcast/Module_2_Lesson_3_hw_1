@@ -5,7 +5,7 @@ UI logic. Activity.
 
 **Task:**
 
-Write an application - a screen flashlight. Those. so that the screen lights up in different colors at the request of the user.
+Create an application - a screen flashlight. Those. so that the screen lights up in different colors at the request of the user.
 1. Main activity - it contains the name of the application and buttons for selecting the color of the screen: white, red, blue, green, cyan, light gray, magneta. Design as you wish.
 2. The second screen is empty with the desired color.
 3. Return - with the back button in the phone.
